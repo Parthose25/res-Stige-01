@@ -1,0 +1,391 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 100;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+}
+.container li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+.container li a {
+  text-decoration: none;
+  color: black;
+}
+header div {
+  margin-left: 10px;
+}
+header div li {
+  margin-left: 10px;
+}
+navbar li {
+  margin-top: -10px;
+  font-weight: bold;
+}
+navbar li a:hover {
+  color: #00b0ff;
+}
+header a img {
+  margin-left: 20px;
+}
+header a img:hover {
+  opacity: 0.8;
+}
+.header-btn {
+  display: inline-block;
+  background-color: #114f54;
+  padding: 10px;
+  width: 220px;
+  height: 17px;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-left: 17px;
+  margin-top: 17px;
+}
+.header-btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.video-create img {
+  width: 100%;
+  height: 450px;
+}
+.create {
+  position: relative;
+}
+.create-btn {
+  display: inline-block;
+  background-color: #114f54;
+  padding: 10px;
+  width: 220px;
+  height: 17px;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-left: 17px;
+  margin-top: 17px;
+}
+.create-btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.create a {
+  position: absolute;
+  left: 38%;
+  top: 80%;
+}
+.why {
+  margin-top: 55px;
+}
+.why h2 {
+  font-size: 30px;
+  font-weight: 700 !important;
+  color: #2c3e50;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.why p {
+  text-align: center;
+  color: #2c3e50;
+  line-height: 1.4rem;
+}
+.table {
+  margin: 50px 250px;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 10px 0 #ddd;
+  width: 70%;
+}
+.table th {
+  background-color: #ddd;
+  border: 2px solid #ddd;
+}
+.table td {
+  border-top: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+  padding: 10px;
+}
+.awesome {
+  background-color: #ddd;
+  margin-top: 40px;
+  text-align: center;
+}
+.awesome h2 {
+  padding-top: 100px;
+}
+.work-done {
+  background-color: #ddd;
+  margin-top: 50px;
+  overflow: hidden;
+  text-align: center;
+}
+.work-done h2 {
+  padding-top: 60px;
+  font-size: 30px;
+  font-weight: 700 !important;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.work-done p {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.5rem;
+  padding-bottom: 40px;
+}
+.card {
+  position: relative;
+  display: inline-block;
+}
+.card a img {
+  width: 515px;
+  padding: 2px;
+}
+.video-play {
+  position: absolute;
+  transition: all 0.4s;
+  background-repeat: no-repeat;
+  left: 38%;
+  top: 53%;
+  cursor: pointer;
+}
+.work-btn {
+  display: inline-block;
+  margin-top: 50px;
+  width: auto;
+  height: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #114f54;
+  color: #114f54;
+  background: #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+  justify-content: center;
+  margin-bottom: 70px;
+  padding: 15px 35px;
+}
+.work-btn:hover {
+  background-color: #114f54;
+  color: white;
+}
+.media {
+  margin-top: 70px;
+  text-align: center;
+}
+.media h2 {
+  font-weight: bold;
+  font-size: 38px;
+}
+.media img {
+  padding: 20px;
+}
+.market {
+  text-align: center;
+  margin-top: 100px;
+}
+.market h1 {
+  font-size: 30px;
+}
+.market {
+  font-weight: bold;
+}
+table {
+  margin: 90px 140px;
+}
+.market img {
+  width: 250px;
+}
+
+footer {
+  background-color: #525050;
+  padding-left: 300px;
+  margin-bottom: 0;
+}
+.info {
+  display: flex;
+}
+footer li {
+  list-style: none;
+  padding: 10px;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+}
+hr {
+  width: 30%;
+  margin-left: 0;
+}
+footer a:hover {
+  padding-left: 10px;
+  border-left: 2px solid #fff;
+}
+.footer-info {
+  margin-top: -10px;
+  margin-left: 290px;
+  color: #fff;
+}
+.footer-info p {
+  font-size: 0.8rem;
+}
+.icons {
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+.icons:hover {
+  opacity: 0.7;
+}
+/* media queries */
+@media screen and (max-width: 1400px) {
+  .header-btn {
+    width: 300px;
+  }
+  .card a img {
+    width: 400px;
+    padding: 10px;
+  }
+  footer {
+    padding-left: 200px;
+  }
+}
+@media screen and (max-width: 1254px) {
+  .header-btn {
+    width: 400px;
+  }
+  .card a img {
+    width: 500px;
+    padding: 10px;
+  }
+  .work-btn {
+    width: 200px;
+  }
+  table {
+    margin: 90px 80px;
+  }
+  .market img {
+    width: 200px;
+  }
+  footer {
+    padding-left: 150px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .container {
+    display: block;
+  }
+  .header-btn {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .create a {
+    width: 150px;
+    left: 30%;
+    top: 70%;
+  }
+  table {
+    margin: 30px 200px;
+  }
+  .card a img {
+    width: 600px;
+    padding: 10px;
+  }
+  .work-btn {
+    width: 400px;
+  }
+  table {
+    margin: 90px 50px;
+  }
+  .market img {
+    width: 200px;
+  }
+  footer {
+    padding-left: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .create a {
+    width: 110px;
+    font-size: 0.9rem;
+    padding: 5px;
+    top: 65%;
+  }
+  table {
+    margin: 30px 130px;
+  }
+  .market img {
+    width: 150px;
+  }
+  footer h2 {
+    font-size: 0.9rem;
+  }
+  footer {
+    padding-left: 5px;
+  }
+  footer li a {
+    font-size: 0.8rem;
+  }
+  .footer-info p {
+    font-size: 0.7rem;
+  }
+  .footer-info {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .create a {
+    width: 100px;
+    font-size: 0.7rem;
+    padding: 4px;
+    top: 65%;
+  }
+  table {
+    margin: 30px 80px;
+  }
+  .card a img {
+    width: 500px;
+    padding: 10px;
+  }
+  .work-btn {
+    width: 200px;
+  }
+  .footer-info {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .create a {
+    width: 90px;
+    font-size: 0.6rem;
+    padding: 2px;
+    top: 65%;
+  }
+  table {
+    margin: 30px 50px;
+  }
+  .card a img {
+    width: 300px;
+    padding: 10px;
+  }
+}
